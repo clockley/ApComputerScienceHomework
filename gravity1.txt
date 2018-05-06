@@ -1,0 +1,9 @@
+ Mercury     3.70
+ Venus       8.87
+ Earth       9.79
+ Mars        3.70
+ Jupiter     24.80
+ Saturn      10.43
+ Uranus      8.86
+ Neptune     11.08
+ Pluto       0.59
