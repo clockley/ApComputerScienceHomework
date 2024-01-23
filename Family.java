@@ -20,12 +20,12 @@ public class Family
       while (inFile.hasNextLine())
       {
          token = inFile.nextLine( );
-         if (!token.equals("")) {
+         if (!"".equals(token)) {
 			sampleSize += 1;
 		}
-		if (token.equals("BG") || token.equals("GB")) {
+		if ("BG".equals(token) || "GB".equals(token)) {
 			obog+=1;
-		} else if (token.equals("GG")) {
+		} else if ("GG".equals(token)) {
 			g+=1;
 		} else {
 			b+=1;

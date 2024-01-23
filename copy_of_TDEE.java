@@ -43,35 +43,35 @@ public class TDEE
         // **********************************************************//
 
 
-		if (gender.equalsIgnoreCase("f") || gender.equalsIgnoreCase("m")) {
-			if (choice.equalsIgnoreCase("A")) {
+		if ("f".equalsIgnoreCase(gender) || "m".equalsIgnoreCase(gender)) {
+			if ("A".equalsIgnoreCase(choice)) {
 				activityFactor = 1.0;
 			}
         
-			if (choice.equalsIgnoreCase("B")) {
+			if ("B".equalsIgnoreCase(choice)) {
 				activityFactor = 1.3;
 			}
 		}
         
-        if (choice.equalsIgnoreCase("C") && gender.equalsIgnoreCase("f")) {
+        if ("C".equalsIgnoreCase(choice) && "f".equalsIgnoreCase(gender)) {
 			activityFactor = 1.5;
         } else {
 			activityFactor = 1.6;
 		}
         
-        if (choice.equalsIgnoreCase("D") && gender.equalsIgnoreCase("m")) {
+        if ("D".equalsIgnoreCase(choice) && "m".equalsIgnoreCase(gender)) {
 			activityFactor = 1.7;
         } else {
 			activityFactor = 1.6;
 		}
         
-        if (choice.equalsIgnoreCase("E") && gender.equalsIgnoreCase("f")) {
+        if ("E".equalsIgnoreCase(choice) && "f".equalsIgnoreCase(gender)) {
 			activityFactor = 1.9;	
         } else {
 			activityFactor = 2.1;
 		}
 		
-        if (choice.equalsIgnoreCase("E") && gender.equalsIgnoreCase("m"))
+        if ("E".equalsIgnoreCase(choice) && "m".equalsIgnoreCase(gender))
         {
 			activityFactor = 2.4;
         } else {

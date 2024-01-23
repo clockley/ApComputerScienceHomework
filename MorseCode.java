@@ -30,7 +30,7 @@ class MorseCode
 
 	static int asciitoarraynum(String a)
 	{
-		if (a.equals("")) {
+		if ("".equals(a)) {
 			return 128;
 		}
 		return a.toUpperCase().charAt(0);

@@ -89,7 +89,7 @@ public class Magpie4
 		statement = statement.trim();
 		String lastChar = statement.substring(statement
 				.length() - 1);
-		if (lastChar.equals("."))
+		if (".".equals(lastChar))
 		{
 			statement = statement.substring(0, statement
 					.length() - 1);
@@ -111,7 +111,7 @@ public class Magpie4
 		//  Remove the final period, if there is one
 		s = s.trim();
 		String lastChar = s.substring(s.length() - 1);
-		if (lastChar.equals(".")) {
+		if (".".equals(lastChar)) {
 			s = s.substring(0, s.length() - 1);
 		}
 
@@ -125,7 +125,7 @@ public class Magpie4
 		//  Remove the final period, if there is one
 		s = s.trim();
 		String lastChar = s.substring(s.length() - 1);
-		if (lastChar.equals(".")) {
+		if (".".equals(lastChar)) {
 			s = s.substring(0, s.length() - 1);
 		}
 
@@ -148,7 +148,7 @@ public class Magpie4
 		statement = statement.trim();
 		String lastChar = statement.substring(statement
 				.length() - 1);
-		if (lastChar.equals("."))
+		if (".".equals(lastChar))
 		{
 			statement = statement.substring(0, statement
 					.length() - 1);

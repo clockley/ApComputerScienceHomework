@@ -24,7 +24,7 @@ public class Magpie2
     }
 
     static boolean isEmpty(String a) {
-        return a.trim().equals("");
+        return "".equals(a.trim());
     }
     
     static boolean containsAnyOf(String s, String[] a)
@@ -47,7 +47,7 @@ public class Magpie2
             return "Say something, please.";
         }
         
-        if (a.equals(NAME_OF_TEACHER)) {
+        if (NAME_OF_TEACHER.equals(a)) {
             return NAME_OF_TEACHER+ (" "+PRONOUN_OF_TEACHER+" sounds like a good teacher.");
         }
         

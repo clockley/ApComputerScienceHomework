@@ -21,7 +21,7 @@ public class MagpieRunner4
         } catch (java.util.NoSuchElementException e){
             return;
         }
-        while (!statement.equals("Bye"))
+        while (!"Bye".equals(statement))
         {
             System.out.println (maggie.getResponse(statement));
             try {
