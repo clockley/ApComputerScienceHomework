@@ -8,6 +8,7 @@
  *
  */
 
+import java.security.SecureRandom;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -23,7 +24,7 @@ public class DiceProbability
 		int die1 = 0;
 		double probability = 0.0;
 		Scanner in = new Scanner(System.in);
-		Random randNum = new Random();
+		Random randNum = new SecureRandom();
 
     	//Declare and initialize variables and objects
 
