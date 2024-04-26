@@ -25,10 +25,10 @@ public class CaesarShiftTester
            }
            String q ="", r = "";
            for (int i = 0; i < u.length; i += 1) {
-               if (u[i].equals("")) {
+               if ("".equals(u[i])) {
                    continue;
                }
-               if (u[i].equals(" ")) {
+               if (" ".equals(u[i])) {
                    r+= " ";
                    continue;
                }                          

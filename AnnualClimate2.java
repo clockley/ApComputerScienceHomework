@@ -41,14 +41,14 @@ class AnnualClimate2
 		System.out.print("Choose the temperature scale (F = Fahrenheit, C = Celsius): ");
 		String tempChoice = in.next();
 		
-		if (tempChoice.equalsIgnoreCase("f")) {
+		if ("f".equalsIgnoreCase(tempChoice)) {
 			fahrenheit = true;
 		}
 		
 		System.out.print("Choose the precipitation scale (i = inches, c = centimeteres): ");
 		String precipChoice = in.next();
 		
-		if (precipChoice.equalsIgnoreCase("i")) {
+		if ("i".equalsIgnoreCase(precipChoice)) {
 			inches = true;
 		}
 

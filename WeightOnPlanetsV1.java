@@ -37,7 +37,7 @@ public class WeightOnPlanetsV1 {
 		while (inFile.hasNext()) {
 			name[i] = inFile.next();
 			sg[i] = inFile.nextDouble() / 10;
-			if (name[i].equalsIgnoreCase("earth") == true)  {
+			if ("earth".equalsIgnoreCase(name[i]) == true)  {
 				sg[i] += 1.0 - sg[i];
 			}
 			i++;

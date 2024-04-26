@@ -16,7 +16,7 @@ public class RecursivePalindromeTester
           return;
       }
       input = in.nextLine();
-      while (input.equals("") == false) {
+      while ("".equals(input) == false) {
             RecursivePalindrome palin = new RecursivePalindrome(input);
             String sbool = "is a";
             if (palin.IsPalindrome() == false) {

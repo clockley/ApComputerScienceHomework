@@ -33,23 +33,23 @@ public class WellnessMenu
         
         System.out.println();
         
-        if( choice.equalsIgnoreCase("A")) //condition for choice A goes in the parentheses
+        if( "A".equalsIgnoreCase(choice)) //condition for choice A goes in the parentheses
         {
             System.out.println("Testing: You chose A for BMI");
         }
-        else if(choice.equalsIgnoreCase("B") ) //condition for choice B goes in the parentheses
+        else if("B".equalsIgnoreCase(choice) ) //condition for choice B goes in the parentheses
         {
             System.out.println("B");
         }
-        else if (choice.equalsIgnoreCase("C")) //condition for choice C goes in the parentheses
+        else if ("C".equalsIgnoreCase(choice)) //condition for choice C goes in the parentheses
         {
             System.out.println("C");
         }
-        else if (choice.equalsIgnoreCase("D")) //condition for choice D goes in the parentheses
+        else if ("D".equalsIgnoreCase(choice)) //condition for choice D goes in the parentheses
         {
             System.out.println("D");
         }
-        else if (choice.equalsIgnoreCase("E")) //condition for choice E goes in the parentheses
+        else if ("E".equalsIgnoreCase(choice)) //condition for choice E goes in the parentheses
         {
             System.out.println("E");
         }

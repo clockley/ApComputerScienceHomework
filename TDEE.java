@@ -43,41 +43,41 @@ public class TDEE
         // **********************************************************//
 
 
-        if (choice.equalsIgnoreCase("A"))
+        if ("A".equalsIgnoreCase(choice))
         {
             activityFactor = 1.0;
         }
-        else if (choice.equalsIgnoreCase("B"))
+        else if ("B".equalsIgnoreCase(choice))
         {
             activityFactor = 1.3;
         }
-        else if (choice.equalsIgnoreCase("C"))
+        else if ("C".equalsIgnoreCase(choice))
         {
-			if (gender.equalsIgnoreCase("m")) {
+			if ("m".equalsIgnoreCase(gender)) {
 				activityFactor = 1.6;
 			} else {
 				activityFactor = 1.5;
 			}
         }
-        else if (choice.equalsIgnoreCase("D"))
+        else if ("D".equalsIgnoreCase(choice))
         {
-			if (gender.equalsIgnoreCase("m")) {
+			if ("m".equalsIgnoreCase(gender)) {
 				activityFactor = 1.7;
 			} else {
 				activityFactor = 1.6;
 			}
         }
-        else if (choice.equalsIgnoreCase("E"))
+        else if ("E".equalsIgnoreCase(choice))
         {
-			if (gender.equalsIgnoreCase("m")) {
+			if ("m".equalsIgnoreCase(gender)) {
 				activityFactor = 2.1;
 			} else {
 				activityFactor = 1.9;
 			}
         }
-        else if (choice.equalsIgnoreCase("E"))
+        else if ("E".equalsIgnoreCase(choice))
         {
-			if (gender.equalsIgnoreCase("m")) {
+			if ("m".equalsIgnoreCase(gender)) {
 				activityFactor = 2.4;
 			} else {
 				activityFactor = 2.2;
