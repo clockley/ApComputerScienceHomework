@@ -1,9 +1,5 @@
-/**
- * This program creates a passwords.
- * 
- * @author Christian Lockley
- * @version 10/31/14
- */
+
+import java.security.SecureRandom;
 import java.util.Scanner;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -14,7 +10,7 @@ class Password
 {
    public static void main (String [ ] args) throws IOException
    {   
-	   Random randNum = new Random();
+	   Random randNum = new SecureRandom();
 	   Scanner in = new Scanner(System.in);
 	   System.out.println("Password Creator menu");
 	   
