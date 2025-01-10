@@ -1,9 +1,5 @@
-/**
- * Calculate PI by throwing (virtual)darts.
- * 
- * @author Christian Lockley
- * @version 12/05/14
- */
+
+import java.security.SecureRandom;
 import java.util.Scanner;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -50,7 +46,7 @@ public class Darts {
 	}
 	
 	public static double ChooseRandomValues() {
-		Random randNum = new Random();
+		Random randNum = new SecureRandom();
 		return randNum.nextDouble();
 	}
 }
