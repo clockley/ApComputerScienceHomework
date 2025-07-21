@@ -1,10 +1,5 @@
-/**
- * The purpose of this program is to demonstrate how to write information to
- * a text file on the hard disk.
- * 
- * @author Christian Lockley
- * @version 11/4/2014
- */
+
+import java.security.SecureRandom;
 import java.util.Scanner;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -16,7 +11,7 @@ class BottleCapPrize
    public static void main (String [ ] args) throws IOException
    {
        String pathName = "BottleCapPrize.txt";
-       Random randNum = new Random();
+       Random randNum = new SecureRandom();
        System.out.print("Enter number of trials: ");
        Scanner in = new Scanner(System.in);
        PrintWriter outFile = new PrintWriter(new File(pathName));
